@@ -1,0 +1,64 @@
+h1,p{
+    color: white;
+
+}
+a{
+    font-family: 'Lexend Deca', sans-serif;
+    border: solid 2px;
+    border-radius: 25px;
+    width: 120px;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    height: 200px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 180%;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5em;
+}
+.wrapper{
+    padding: 10% 20% 10% 20%;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     
+}
+.content > article{
+    padding: 60px;
+}
+.content > article > a{
+    margin-top: 60px;
+    display: grid;
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.first > a{
+    color: hsl(31, 77%, 52%);
+}
+.second > a{
+    color: hsl(184, 100%, 22%);
+}
+.third > a{
+    color: hsl(179, 100%, 13%);
+}
+
+a:hover{
+    background-color: transparent;
+    color: white;
+}
+
