@@ -1,0 +1,367 @@
+html, body{
+    padding: auto;
+    margin: auto;
+    font-family: 'Overpass', sans-serif !important;
+    font-weight: 300;
+}
+.header{
+    display: block;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(90deg, #ff8f70, #ff8269, #ff7461, #ff665a, #ff5753, #ff4c50, #ff4451, #ff3d54);
+    border-radius: 0% 0% 0% 93px;
+}
+.content{
+    background-image: url(images/bg-pattern-intro.svg);
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+    background-size: 215%;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    font-family: 'Overpass', sans-serif;
+}
+.logo{
+    padding: 0;
+    margin-top: 4%;
+    margin-left: 15%;
+    position: absolute;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.login{
+    margin-left: 65%;
+    font-weight: 600;
+}
+.login a{
+  margin-left: 5% !important;
+}
+.title{
+  margin-top: 5.7%;
+  text-align: center;
+}
+.title h1{
+  font-weight: normal;
+  font-size: 4.4em;
+  color: white;
+}
+.title h3{
+  color: white;
+  font-weight: lighter;
+}
+.signup{
+  background-color: white;
+  color: hsl(356, 100%, 66%) !important;
+  border-radius: 50px;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  text-align: center;
+}
+.signup:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: white !important;
+  border-radius: 50px;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  text-align: center;
+}
+.product{
+  background-color: white;
+  color: hsl(356, 100%, 66%);
+  border-radius: 50px;
+  padding: 18px 27px 18px 27px;
+  text-decoration: none;
+}
+.product:hover{
+  background-color: hsl(355, 100%, 74%);
+  color: white;
+}
+.company{
+  border-radius: 50px;
+  border: white;
+  border-style: solid;
+  padding: 18px 27px 18px 27px;
+  color: white;
+  text-decoration: none;
+  border-width: 1.5px;
+}
+.company:hover{
+  background-color: white;
+  color: hsl(355, 100%, 74%);
+}
+.action{
+  margin-top: 5%;
+}
+.action a{
+  margin-left: 1%;
+  font-weight: 600;
+  text-align: center;
+}
+.first-container{
+  width: 100%;
+  height: 1300px;
+}
+.pozadina{
+  text-align: center;
+  background-image: url(images/illustration-editor-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 141% 70%;
+  background-size: 60%;
+  width: 100%;
+  height: 1300px;
+  
+}
+.naslov-prvi{
+  display: inline-block;
+  margin-top: 150px;
+  font-weight: 600;
+  color: hsl(226, 77%, 32%);
+  font-size: 45px;
+}
+
+.tekst-prvi{
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.naslov-drugi{
+float: left;
+color: #133090;
+}
+.paragraf-prvi{
+  width: 30%;
+  text-align: left;
+  color: hsl(207, 13%, 34%);
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.naslov-treci{
+float: left;
+color: #133090;
+}
+.paragraf-drugi{
+  width: 25%;
+  text-align: left;
+  color: hsl(207, 13%, 34%);
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.second-container{
+  width: 100%;
+  height: 450px;
+  background: linear-gradient(90deg, hsl(237, 17%, 21%),  hsl(237, 23%, 32%));
+  border-radius: 0% 93px 0% 93px;
+}
+.druga-pozadina{
+  background-image: url(images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: -21% 90%;
+  background-size: 60%;
+  width: 100%;
+  height: 450px;
+}
+.telefoni{
+  margin-left: 8%;
+  margin-top: -2%;
+  position: absolute;
+  z-index: 100;
+  
+}
+.naslov-cetvrti{
+  font-size: 45px;
+  color: white;
+
+}
+.paragraf-treci{
+  color: white;
+  width: 50%;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.paragraf-cetvrti{
+  width: 70%;
+  text-align: left;
+  color: hsl(207, 13%, 34%);
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 25px;
+  padding-bottom: 90px;
+}
+.paragraf-peti{
+  width: 70%;
+  text-align: left;
+  color: hsl(207, 13%, 34%);
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.tekst-telefon{
+  float: right;
+  width: 50%;
+  margin-top: 5%;
+}
+.treca-pozadina{
+  text-align: center;
+  background-image: url(images/illustration-laptop-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -43% 70%;
+  background-size: 60%;
+  width: 100%;
+  height: 1300px;
+}
+.tekst-drugi{
+  float: right;
+  width: 50%;
+  margin-top: 470px;
+}
+footer{
+  width: 100%;
+  height: 400px;
+  background-color:hsl(240, 10%, 16%);
+  border-radius: 0% 93px 0% 0%;
+}
+.divider{
+  height: 1px;
+  width: 100%;
+  display: inline-block;
+}
+.footer-logo{
+  padding: 0;
+  margin-top: 4%;
+  margin-left: 15%;
+  position: absolute;
+}
+.footer-logo a{
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+.footer-links a{
+  color: hsl(240, 2%, 79%);
+  text-decoration: none;
+}
+.footer-links li{
+  list-style: none;
+  padding-bottom: 13px;
+}
+.footer-links{
+  width: 40%;
+  display: inline-grid;
+  grid-template-columns: auto;
+  margin-top: 4%;
+  margin-left: 35%;
+}
+.drugi-red{
+  grid-row: 1;
+}
+.prvi-red{
+  grid-row: 1;
+}
+.treci-red{
+  grid-row: 1;
+}
+.fnaslov-prvi{
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.fnaslov-prvi a{
+  color: white;
+}
+.fnaslov-drugi a{
+  color: white;
+}
+.fnaslov-treci a{
+  color: white;
+}
+.fnaslov-drugi{
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.fnaslov-treci{
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+
+
+/* Navbar container */
+.nav {
+    overflow: hidden;
+    margin-top: 4%;
+    margin-left: 25%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+  }
+  
+  /* Links inside the navbar */
+  .nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+    .dropdown-content a:hover {
+    float: none;
+    color: hsl(207, 13%, 34%);
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
